@@ -1,5 +1,6 @@
 import "./HomePage.scss";
 import Bookcover from "../../components/utillity/Bookcover/Bookcover";
+import Img from "../../components/utillity/Image/Img";
 
 const bookLinks = [
   {
@@ -35,7 +36,7 @@ const HomePage: React.FunctionComponent = () => {
                 target="_blank"
                 href="https://www.goodreads.com/book/show/28954189-scythe"
               >
-                <img src="/src/assets/goodreads.png"></img>
+                <Img src={"icons/goodreads.png"}></Img>
                 <label>Goodreads</label>
               </a>
               <a
@@ -43,7 +44,7 @@ const HomePage: React.FunctionComponent = () => {
                 target="_blank"
                 href="http://www.simonandschuster.com/books/Scythe/Neal-Shusterman/9781442472426"
               >
-                <img src="/src/assets/open-book.png"></img>
+                <Img src={"icons/open-book.png"}></Img>
                 <label>Read An Excerpt</label>
               </a>
               <a
@@ -51,7 +52,7 @@ const HomePage: React.FunctionComponent = () => {
                 target="_blank"
                 href="http://www.amazon.com/Scythe-Neal-Shusterman/dp/1442472421"
               >
-                <img src="/src/assets/cart.svg"></img>
+                <Img src={"icons/cart.svg"}></Img>
                 <label>Buy on Amazon</label>
               </a>
               <a
@@ -59,7 +60,7 @@ const HomePage: React.FunctionComponent = () => {
                 target="_blank"
                 href="https://www.barnesandnoble.com/w/scythe-neal-shusterman/1113794690?ean=9781442472433#/"
               >
-                <img src="/src/assets/cart.svg"></img>
+                <Img src={"icons/cart.svg"}></Img>
                 <label>Buy on Barnes & Nobel</label>
               </a>
             </div>
@@ -110,7 +111,7 @@ const HomePage: React.FunctionComponent = () => {
                 target="_blank"
                 href="https://www.goodreads.com/en/book/show/33555224"
               >
-                <img src="/src/assets/goodreads.png"></img>
+                <Img src={"icons/goodreads.png"}></Img>
                 <label>Goodreads</label>
               </a>
               <a
@@ -118,7 +119,7 @@ const HomePage: React.FunctionComponent = () => {
                 target="_blank"
                 href="https://www.simonandschuster.com/books/Thunderhead/Neal-Shusterman/Arc-of-a-Scythe/9781442472464"
               >
-                <img src="/src/assets/open-book.png"></img>
+                <Img src={"icons/open-book.png"}></Img>
                 <label>Read An Excerpt</label>
               </a>
               <a
@@ -126,7 +127,7 @@ const HomePage: React.FunctionComponent = () => {
                 target="_blank"
                 href="https://www.amazon.com/Thunderhead-Arc-Scythe-Neal-Shusterman/dp/1442472456/ref=pd_bxgy_vft_none_sccl_1/132-9531220-5338734?pd_rd_w=5Zm1P&content-id=amzn1.sym.26a5c67f-1a30-486b-bb90-b523ad38d5a0&pf_rd_p=26a5c67f-1a30-486b-bb90-b523ad38d5a0&pf_rd_r=7EYTGX4HZJE4YFQ3M3KJ&pd_rd_wg=fL8RQ&pd_rd_r=c297a9e5-aec0-4c76-8cfa-ab4acc2b56c4&pd_rd_i=1442472456&psc=1"
               >
-                <img src="/src/assets/cart.svg"></img>
+                <Img src={"icons/cart.svg"}></Img>
                 <label>Buy on Amazon</label>
               </a>
               <a
@@ -134,7 +135,7 @@ const HomePage: React.FunctionComponent = () => {
                 target="_blank"
                 href="https://www.barnesandnoble.com/w/thunderhead-neal-shusterman/1125685916?ean=9781442472464"
               >
-                <img src="/src/assets/cart.svg"></img>
+                <Img src={"icons/cart.svg"}></Img>
                 <label>Buy on Barnes & Nobel</label>
               </a>
             </div>
@@ -188,7 +189,7 @@ const HomePage: React.FunctionComponent = () => {
                 target="_blank"
                 href="https://www.goodreads.com/book/show/43822024-the-toll?from_search=true&from_srp=true&qid=CqV09fMAAz&rank=2"
               >
-                <img src="/src/assets/goodreads.png"></img>
+                <Img src={"icons/goodreads.png"}></Img>
                 <label>Goodreads</label>
               </a>
               <a
@@ -196,7 +197,7 @@ const HomePage: React.FunctionComponent = () => {
                 target="_blank"
                 href="https://www.simonandschuster.com/books/The-Toll/Neal-Shusterman/Arc-of-a-Scythe/9781481497077"
               >
-                <img src="/src/assets/open-book.png"></img>
+                <Img src={"icons/open-book.png"}></Img>
                 <label>Read An Excerpt</label>
               </a>
               <a
@@ -204,7 +205,7 @@ const HomePage: React.FunctionComponent = () => {
                 target="_blank"
                 href="https://www.amazon.com/Toll-3-Arc-Scythe/dp/1481497065/?redirectFromSmile=1"
               >
-                <img src="/src/assets/cart.svg"></img>
+                <Img src={"icons/cart.svg"}></Img>
                 <label>Buy on Amazon</label>
               </a>
               <a
@@ -212,7 +213,7 @@ const HomePage: React.FunctionComponent = () => {
                 target="_blank"
                 href="https://www.barnesandnoble.com/w/the-toll-neal-shusterman/1130507661/"
               >
-                <img src="/src/assets/cart.svg"></img>
+                <Img src={"icons/cart.svg"}></Img>
                 <label>Buy on Barnes & Nobel</label>
               </a>
             </div>

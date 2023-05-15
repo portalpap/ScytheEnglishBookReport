@@ -11,7 +11,7 @@ const Bookcover: React.FunctionComponent<BookcoverProps> = (props) => {
   const { icon } = props;
 
   const imgUrl = useMemo(() => {
-    return new URL(`/src/assets/${icon}`, import.meta.url).href;
+    return new URL(`/public/assets/${icon}`, import.meta.url).href;
   }, [icon]);
 
   return (
@@ -19,7 +19,6 @@ const Bookcover: React.FunctionComponent<BookcoverProps> = (props) => {
       className={`bookcover`}
       title={props.title}
       style={{
-        // backgroundImage: `url(${imgUrl})`,
         cursor: props.link ? "pointer" : "default",
       }}
       onClick={() => {

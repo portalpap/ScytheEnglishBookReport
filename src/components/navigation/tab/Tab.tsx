@@ -2,7 +2,6 @@ import "./Tab.scss";
 import React, { useMemo } from "react";
 
 export interface TabProps {
-  className?: string;
   label: string;
   icon: string;
   size: number;
@@ -11,10 +10,10 @@ export interface TabProps {
 }
 
 const Tab: React.FunctionComponent<TabProps> = (props) => {
-  const { className, icon, size, color, label, placement } = props;
+  const { icon, size, color, label, placement } = props;
 
   const imgUrl = useMemo(() => {
-    return new URL(`/src/assets/${icon}`, import.meta.url).href;
+    return new URL(`/public/assets/icons/${icon}`, import.meta.url).href;
   }, [icon]);
 
   return (
