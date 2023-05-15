@@ -13,7 +13,7 @@ const Tab: React.FunctionComponent<TabProps> = (props) => {
   const { icon, size, color, label, placement } = props;
 
   const imgUrl = useMemo(() => {
-    return new URL(`/public/assets/icons/${icon}`, import.meta.url).href;
+    return new URL(`/src/assets/icons/${icon}`, import.meta.url).href;
   }, [icon]);
 
   return (

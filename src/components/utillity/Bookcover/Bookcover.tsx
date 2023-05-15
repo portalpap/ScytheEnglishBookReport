@@ -11,7 +11,7 @@ const Bookcover: React.FunctionComponent<BookcoverProps> = (props) => {
   const { icon } = props;
 
   const imgUrl = useMemo(() => {
-    return new URL(`/public/assets/${icon}`, import.meta.url).href;
+    return new URL(`/src/assets/${icon}`, import.meta.url).href;
   }, [icon]);
 
   return (

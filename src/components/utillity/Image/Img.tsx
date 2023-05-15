@@ -6,7 +6,7 @@ export interface ImgProps {
 
 const Img: React.FunctionComponent<ImgProps> = (props) => {
   const imgUrl = useMemo(() => {
-    return new URL(`/public/assets/${props.src}`, import.meta.url).href;
+    return new URL(`/src/assets/${props.src}`, import.meta.url).href;
   }, [props.src]);
   return <img src={imgUrl}></img>;
 };

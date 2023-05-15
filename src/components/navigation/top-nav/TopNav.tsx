@@ -1,3 +1,4 @@
+import Img from "../../utillity/Image/Img";
 import Tab from "../tab/Tab";
 import "./TopNav.scss";
 
@@ -26,7 +27,7 @@ const TopNav: React.FunctionComponent = () => {
 
   return (
     <nav id="TopNav">
-      <img src="/src/assets/neal-shusterman-logo.png"></img>
+      <Img src="icons/neal-shusterman-logo.png"></Img>
       <div className="tabs">{renderMenuLinks()}</div>
     </nav>
   );
