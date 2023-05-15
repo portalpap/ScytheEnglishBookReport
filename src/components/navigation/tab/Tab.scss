@@ -1,0 +1,30 @@
+.tab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+  padding: 4px;
+  border-radius: 4px;
+  outline: 1px solid transparent;
+
+  &:hover {
+    outline-color: whitesmoke;
+    cursor: pointer;
+    scale: 1.2;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  // placement
+  &.bottom {
+    flex-direction: column;
+  }
+  &.top {
+    flex-direction: column-reverse;
+  }
+  &.right {
+    flex-direction: row;
+  }
+  &.left {
+    flex-direction: row-reverse;
+  }
+}

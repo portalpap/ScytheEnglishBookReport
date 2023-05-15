@@ -1,0 +1,21 @@
+.bookcover {
+  border-radius: 4px;
+  transition: 0.2s ease-in-out;
+  overflow: hidden;
+  background-size: contain;
+  display: flex;
+  height: fit-content;
+  align-items: center;
+  justify-content: center;
+  & > img {
+    width: 100%;
+    object-fit: cover;
+  }
+  &:hover {
+    cursor: pointer;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+      rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transform: translateY(-2px) scale(1.05);
+  }
+}

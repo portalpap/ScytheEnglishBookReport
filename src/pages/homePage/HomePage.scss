@@ -1,0 +1,79 @@
+#homePage {
+  padding: 16px 5vw;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+  & > fieldset {
+    width: 100%;
+    padding: 0 1em;
+    border-radius: 4px;
+    font-size: 15px;
+    & > legend {
+      font-size: 1.5em;
+      font-weight: 400;
+      color: var(--primary-color);
+      margin: 0;
+    }
+    & > .top {
+      margin-bottom: 1em;
+      display: flex;
+      & > .bookcover {
+        width: 20%;
+        margin-right: 1em;
+        max-width: 500px;
+      }
+      & > .topRight {
+        width: 100%;
+        & > h2 {
+          border-bottom: 2px solid black;
+          width: 100%;
+          font-size: 40px;
+          font-weight: 400;
+          color: var(--primary-color);
+          margin: 0 0 10px 0;
+        }
+      }
+    }
+    & > details {
+      margin-bottom: 1em;
+      height: 100%;
+      & > summary {
+        user-select: none;
+        font-size: 20px;
+        &:hover {
+          cursor: pointer;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .links {
+    a {
+      width: fit-content;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      line-height: 0px;
+      color: var(--primary-color);
+      & > img {
+        width: 18px;
+        height: 18px;
+      }
+      &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+      }
+      & > label {
+        margin-left: 8px;
+      }
+      &:not(:last-child) {
+        margin-bottom: 8px;
+      }
+    }
+  }
+}
